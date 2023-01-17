@@ -1,1 +1,2 @@
-## the simple project using JUST useState hook and props in react
+## the simple project using:
+# useState and props
