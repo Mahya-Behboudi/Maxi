@@ -4,7 +4,7 @@ import style from './Add.module.css';
 import Button from "../UI/Button";
 import ErrorModal from "../UI/ErrorModal";
 const AddUser  =(props) =>{
-   
+ 
     const [error , setError] = useState();
     const enteredUserAgeRef = useRef();
     const enteredUserNameRef = useRef();
@@ -35,7 +35,6 @@ const AddUser  =(props) =>{
     };
    
     const errorHandler  = (event) =>{
-    
         setError(null);
     }
         return (
